@@ -51,20 +51,78 @@
 }
 
 .cards .card {
-  background-color: aquamarine;
   height: 250px;
   max-width: 317px;
   width: 100%;
-  border: 1px solid gray;
+  border: 1px dashed gray;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  border-radius: 9px;
 }
 
-.contentCards h3 {
-  position: relative;
+.card .cardInfo {
+  display: flex;
+  align-items: center;
+}
+
+.card .logoHouse img {
+  width: 88px;
+  height: 88px;
+  margin: 12px;
+}
+
+.card .location {
+  display: flex;
+  align-items: center;
+}
+
+.card .location img {
+  margin-right: 5px;
+}
+
+.card h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.card hr {
+  background-color: #fff;
+  width: 35px;
+  height: 2px;
+  border: none;
+  margin: 10px 0;
+}
+
+.card h4 {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.card .cardButton {
+  margin: 5px;
+}
+
+.card .cardButton button{
+  background-color: #F24F13;
+  border-radius: 8px;
+  text-transform: uppercase;
   color: #fff;
-  text-align: center;
-  z-index: 1;
-  margin: 40px 0;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border: none
+}
+
+.cardButton img {
+  margin-left: 5px;
 }
 
 .footer {
