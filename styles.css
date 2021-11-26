@@ -7,10 +7,6 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.hero .container img {
-  width: 100%;
-}
-
 #vive {
   color: #F24F13;
 }
@@ -39,8 +35,23 @@
   background-color: #419133;
 }
 
+.hero .containers img {
+  width: 100%;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners img {
+  width: 100px;
+}
+
 .content {
-  margin: 50px 30px;
+  margin: 20px;
 }
 
 .content h3 {
@@ -48,7 +59,7 @@
   font-weight: 400;
 }
 
-.content h2 {
+.content h2 span {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 35px;
 }
@@ -66,13 +77,14 @@
   height: 250px;
   max-width: 317px;
   width: 100%;
-  margin: 10px;
+  margin: 15px 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   color: #fff;
   border-radius: 9px;
+  border: none;
 }
 
 .card .cardInfo {
@@ -102,7 +114,7 @@
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 25px;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 .card hr {
@@ -119,7 +131,7 @@
 }
 
 .card .cardButton {
-  margin: 5px;
+  margin: -15px;
 }
 
 .card .cardButton button{
@@ -132,7 +144,6 @@
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  /* border: none; */
   cursor: pointer;
 }
 
@@ -140,6 +151,160 @@
   margin-left: 5px;
   width: 13px;
   height: 17px;
+}
+
+.contentCards .finalCard h3 {
+  color: #fff;
+  position: sticky;
+  z-index: 5;text-align: center;
+  margin: 50px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 20px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  border-bottom: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.modal-content .btn-close {
+  background-image: url('./assets/images/close.png');
+}
+
+.modal-header h5 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.modal-header hr {
+  background-color: #fff;
+  width: 35px;
+  color: #fff;
+  height: 2px;
+  border: none;
+  margin: 10px 0;
+}
+
+.modal-header img {
+  width: 17px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.modal-header .location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-header h4 {
+  font-size: 13px;
+}
+
+.modal-body {
+  padding: 0;
+  color: #000;
+  font-weight: 600;
+}
+
+.modal-body .banner img {
+  width: 100%;
+  margin: 0;
+}
+
+.modal-body .info {
+  margin: 35px 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.modal-body .info .description p {
+  max-width: 350px;
+  width: 100%;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.phone a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 5px;
+}
+
+.modal-body .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.modal-body .contact hr {
+  background-color: #F24F13;
+  width: 50px;
+  color: #fff;
+  height: 3px;
+  border: none;
+  margin: 10px 0;
+}
+
+.contact h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #F24F13;
+}
+
+.contactInfo .icon {
+  margin-right: 5px;
+}
+
+.modal-body .mainImg {
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+.modal-body .mainImg picture img {
+  margin: 30px auto;
+}
+
+.modal-body .carousel {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.modal-body .location {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #419133;
+  padding: 35px 0;
+}
+
+.location h5 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #fff;
+}
+
+.modal-footer button {
+  margin: 0 auto;
+  background-color: #F24F13;
+  border: none;
 }
 
 .footer {

@@ -4,15 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles.css">
   <title>Posadas Turísticas de Cundinamarca</title>
 </head>
 <body>
   <section class="hero">
-    <div class="container">
+    <div class="containers">
       <img src="./assets/images/banner idecut posadas-100 1.png" alt="">
       <div class="title">
       </div>
+    </div>
+  </section>
+  <section class="wrapper">
+    <div class="partners">
+      <figure>
+        <img src="./assets/images/posadas turisticas-8 1.png" alt="">
+      </figure>
+      <figure>
+        <img src="./assets/images/logo idecut-100 1.png" alt="">
+      </figure>
+      <figure>
+        <img src="./assets/images/logo  gobernacion-8 1.png" alt="">
+      </figure>
     </div>
   </section>
   <section class="wrapper">
@@ -49,7 +63,7 @@
             </div>
           </div>
           <div class="cardButton">
-            <button>
+            <button data-bs-toggle="modal" data-bs-target="#leona">
               Información y Galería
               <img src="./assets/images/icon clic-8 1.png" alt="icono clic">
             </button>
@@ -281,15 +295,117 @@
           </div>
         </div>
       </div>
-      <div>
-        <!-- <h3>Instituto Departamental de Cultura y Turismo | IDECUT</h3> -->
+      <div class="finalCard">
+        <h3>Instituto Departamental de Cultura y Turismo | IDECUT</h3>
       </div>
     </div>
   </section>
+  <!-- Modals -->
+  <div class="modal fade" id="leona" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" id="first">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div>
+            <h5 class="modal-title" id="">Hacienda La Leona</h5>
+            <hr>
+            <div class="location">
+              <figure>
+                <img src="./assets/images/icon gps blanco-8 1.png" alt="icono gps">
+              </figure>
+              <h4>Algodones, Cundinamarca</h4>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="banner">
+            <figure>
+              <img src="./assets/images/leona/1 foto portada la leona-8 1.png" alt="portada leona">
+            </figure>
+          </div>
+          <div class="info">
+            <div class="description">
+              <p>
+                <span id="vive">La Hacienda la Leona pertenece a la Ruta del Agua, proyecto descrito por la Gobernación de Cundinamarca</span>, marcándonos como un centro rico en fuentes hídricas; la hacienda está ubicada en la vereda Algodones en el piedemonte llanero donde limita al occidente con el Embalse del Guavio, al suroccidente con el PNN Chingaza, al oriente con Medina y al norte con el río Guavio.
+              </p>
+              <p>
+                Comprende tanto bosque seco tropical como bosque húmedo premontano y bosque de niebla; características ideales para la proliferación de la biodiversidad. Es una zona rica en fauna y flora. Se cuenta con un reporte por encima de las doscientas especies de aves, entre las que se destancan la Pava Negra, el Carpintero Selvático, el Gallito de Roca, el Heliodoxa Coronado, la Reinita Cerúlea, la Suelda Cejiamarilla, la Mochilera Variable, entre otras.
+              </p>
+              <p>
+                Brindamos el servicio de observación de aves, trecking, cabalgatas y alojamiento.
+              </p>
+            </div>
+            <div class="contact">
+              <h3>Reservas</h3>
+              <div class="contactInfo">
+                <figure class="icon">
+                  <img src="./assets/images/phone.png" alt="icon phone">
+                </figure>
+                <p class="phone"><a href="tel:573136522344">313 6522344</a></p>
+              </div>
+              <div class="contactInfo">
+                <figure class="icon">
+                  <img src="./assets/images/mail.png" alt="icon mail">
+                </figure>
+                <p class="mail">laleonabirding@gmail.com</p>
+              </div>
+              <hr>
+              <div class="contactInfo">
+                <figure class="icon">
+                  <img src="./assets/images/facebook.png" alt="icon facebook">
+                </figure>
+                <p class="facebook">Hacienda La Leona</p>
+              </div>
+              <div class="contactInfo">
+                <figure class="icon">
+                  <img src="./assets/images/icon instagram.png" alt="icon Instagram">
+                </figure>
+                <p class="instagram">@hacienda_la_leona</p>
+              </div>
+            </div>
+          </div>
+          <div class="mainImg">
+            <picture>
+              <img src="./assets/images/leona/foto 1 hacienda la leona.jpg" alt="leona">
+            </picture>
+          </div>
+          <div class="carousel">
+            <figure>
+              <img src="./assets/images/leona/foto 3 finca la leona 1.png" alt="">
+            </figure>
+            <figure>
+              <img src="./assets/images/leona/foto 2 finca la leona 1.png" alt="">
+            </figure>
+            <figure>
+              <img src="./assets/images/leona/foto 4 finca la leona 1.png" alt="">
+            </figure>
+            <figure>
+              <img src="./assets/images/leona/foto 5 finca la leona 1.png" alt="">
+            </figure>
+            <figure>
+              <img src="./assets/images/leona/foto 6 finca la leona 1.png" alt="">
+            </figure>
+          </div>
+          <div class="location">
+            <div>
+              <h5>¿Cómo Llegar?</h5>
+            </div>
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15904.437176363695!2d-73.3360704!3d4.7510413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xad144feef9b3464e!2sHacienda%20La%20Leona%20Birdwatching!5e0!3m2!1ses!2sco!4v1637896557191!5m2!1ses!2sco" width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <section>
     <footer class="footer">
       <img src="./assets/images/footer-8 1.png" alt="">
     </footer>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
