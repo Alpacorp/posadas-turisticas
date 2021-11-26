@@ -196,7 +196,6 @@
 
 .modal-header .location {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -236,6 +235,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.contactInfo .mail a, .contactInfo .web a  {
+  text-decoration: none;
+  color: #000;
+}
+
+.contactInfo .facebook a, .contactInfo .instagram a {
+  text-decoration: none;
+  color: #000;
 }
 
 .phone a {
@@ -310,6 +319,9 @@
   }
   .content h2 {
     font-size: 20px;
+  }
+  .modal-body .info {
+    margin: 35px 30px;
   }
   .footer {
     margin: -200px 0;
