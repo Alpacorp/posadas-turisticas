@@ -275,6 +275,8 @@
 
 .modal-body .mainImg picture img {
   margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
 }
 
 .modal-body .carousel {
