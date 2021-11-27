@@ -134,7 +134,6 @@
 }
 
 .card .cardButton button{
-  /* background-color: #F24F13; */
   border-radius: 8px;
   text-transform: uppercase;
   color: #fff;
@@ -266,7 +265,6 @@
 
 .contact h3 {
   font-family: 'Gloria Hallelujah', cursive;
-  /* color: #F24F13; */
 }
 
 .contactInfo .icon {
@@ -295,7 +293,6 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  /* background-color: #419133; */
   padding: 35px 0;
 }
 
