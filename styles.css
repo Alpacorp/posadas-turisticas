@@ -7,31 +7,36 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-#vive {
+.hide {
+  display: none;
+}
+
+.vive {
   color: #F24F13;
 }
 
-#cmarca {
+.cmarca {
   color: #99CC33;
 }
 
-#col {
+.col {
   color: #419133;
+  flex: none;
 }
 
 .wrapper {
   margin: 0 90px;
 }
 
-#first {
+.first {
   background-color: #F24F13;
 }
 
-#second {
+.second {
   background-color: #99CC33;
 }
 
-#third {
+.third {
   background-color: #419133;
 }
 
@@ -129,7 +134,7 @@
 }
 
 .card .cardButton button{
-  background-color: #F24F13;
+  /* background-color: #F24F13; */
   border-radius: 8px;
   text-transform: uppercase;
   color: #fff;
@@ -226,7 +231,7 @@
   width: 100%;
 }
 
-#divisor {
+.divisor {
   width: 50px;
   margin: 10px 0;
 }
@@ -261,7 +266,7 @@
 
 .contact h3 {
   font-family: 'Gloria Hallelujah', cursive;
-  color: #F24F13;
+  /* color: #F24F13; */
 }
 
 .contactInfo .icon {
