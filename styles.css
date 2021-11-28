@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Quicksand:wght@400;500&display=swap');
 
+:root {
+  --salmon-color: #F24F13;
+  --clear-green-color: #99CC33;
+  --green-color: #419133;
+  --white-color: #fff;
+  --black-color: #000;
+  --clear-gray-color: #eeeeee;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,15 +21,15 @@
 }
 
 .vive {
-  color: #F24F13;
+  color: var(--salmon-color);
 }
 
 .cmarca {
-  color: #99CC33;
+  color: var(--clear-green-color);
 }
 
 .col {
-  color: #419133;
+  color: var(--green-color);
   flex: none;
 }
 
@@ -29,15 +38,15 @@
 }
 
 .first {
-  background-color: #F24F13;
+  background-color: var(--salmon-color);
 }
 
 .second {
-  background-color: #99CC33;
+  background-color: var(--clear-green-color);
 }
 
 .third {
-  background-color: #419133;
+  background-color: var(--green-color);
 }
 
 .hero .containers img {
@@ -52,7 +61,7 @@
 }
 
 .partners img {
-  width: 100px;
+  width: 150px;
 }
 
 .content {
@@ -87,7 +96,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  color: #fff;
+  color: var(--white-color);
   border-radius: 9px;
   border: none;
 }
@@ -136,18 +145,19 @@
 .card .cardButton button{
   border-radius: 8px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white-color);
   padding: 8px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
   cursor: pointer;
-  border: 1px solid #fff;
+  border: 1px solid var(--white-color);
 }
 
 .card .cardButton button:hover {
   transform: scale(1.01);
+  transition: .1s;
 }
 
 .cardButton img {
@@ -157,7 +167,7 @@
 }
 
 .contentCards .finalCard h3 {
-  color: #fff;
+  color: var(--white-color);
   position: sticky;
   z-index: 5;text-align: center;
   margin: 50px;
@@ -178,7 +188,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  color: #fff;
+  color: var(--white-color);
   border-bottom: none;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -209,7 +219,7 @@
 
 .modal-body {
   padding: 0;
-  color: #000;
+  color: var(--black-color);
   font-weight: 600;
 }
 
@@ -243,17 +253,17 @@
 
 .contactInfo .mail a, .contactInfo .web a  {
   text-decoration: none;
-  color: #000;
+  color: var(--black-color);
 }
 
 .contactInfo .facebook a, .contactInfo .instagram a {
   text-decoration: none;
-  color: #000;
+  color: var(--black-color);
 }
 
 .phone a {
   text-decoration: none;
-  color: #000;
+  color: var(--black-color);
   margin-left: 5px;
 }
 
@@ -272,7 +282,7 @@
 }
 
 .modal-body .mainImg {
-  background-color: #EEEEEE;
+  background-color: var(--clear-gray-color);
   text-align: center;
 }
 
@@ -298,12 +308,12 @@
 
 .location h5 {
   font-family: 'Gloria Hallelujah', cursive;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .modal-footer button {
   margin: 0 auto;
-  background-color: #F24F13;
+  background-color: var(--salmon-color);
   border: none;
 }
 
