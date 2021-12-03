@@ -99,6 +99,7 @@
   color: var(--white-color);
   border-radius: 9px;
   border: none;
+  background-size: contain;
 }
 
 .card .cardInfo {
