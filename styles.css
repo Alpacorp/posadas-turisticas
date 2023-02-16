@@ -236,6 +236,10 @@
   flex-wrap: wrap;
 }
 
+.modal-body .info .info-video {
+  margin: 20px 0;
+}
+
 .modal-body .info .description p {
   max-width: 350px;
   width: 100%;
