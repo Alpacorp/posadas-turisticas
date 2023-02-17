@@ -237,7 +237,14 @@
 }
 
 .modal-body .info .info-video {
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.modal-body .info .info-video iframe {
+  max-width: 700px;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 .modal-body .info .description p {
