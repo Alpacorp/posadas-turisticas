@@ -89,6 +89,7 @@
 
 .card::before {
   content: '';
+  border-radius: 9px;
   position: absolute;
   top: 0;
   right: 0;
