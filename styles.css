@@ -290,7 +290,7 @@
   color: var(--black-color);
 }
 
-.contactInfo .facebook a, .contactInfo .instagram a {
+.contactInfo .facebook a, .contactInfo .instagram a, .contactInfo .tiktok a, .contactInfo .youtube a {
   text-decoration: none;
   color: var(--black-color);
 }
@@ -313,6 +313,11 @@
 
 .contactInfo .icon {
   margin-right: 5px;
+}
+
+.contactInfo .icon img {
+  width: 25px;
+  height: 25px;
 }
 
 .modal-body .mainImg {
